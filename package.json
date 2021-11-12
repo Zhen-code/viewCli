@@ -1,0 +1,34 @@
+{
+  "name": "viewCli",
+  "version": "1.0.0",
+  "description": "one project for view cli ",
+  "main": "index.js",
+  "author": {
+    "name": "zhq",
+    "email": "945003895@qq.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "view.js",
+    "view-app",
+    "view-cli"
+  ],
+  "bin": {
+    "view-cli": "./bin/index.js"
+  },
+  "repository": {},
+  "license": "ISC",
+  "private": false,
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.0.0",
+    "fs-extra": "^9.0.0",
+    "inquirer": "^7.1.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
